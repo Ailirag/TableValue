@@ -112,7 +112,7 @@ print(f'{data.name}: childrens: {data.count_of_children}. Pets: {data.count_of_p
 ```
 OLEG: childrens: 1. Pets: 2
 ```
-# 4. Delete record
+# 5. Delete record
 ```python
 table.delete(filter_query={'name':'OLEG'})
 data_oleg = table.get_rows(filter_query={'name': 'OLEG'})
@@ -124,7 +124,7 @@ data = data_oleg[0]
 IndexError: list index out of range
 ```
 
-# 5. Transactions
+# 6. Transactions
 When there is an active transaction, commit is not performed automatically.
 The following construction interferes
 
