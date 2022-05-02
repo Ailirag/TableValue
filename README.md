@@ -1,10 +1,15 @@
 
-## API Reference
+## Description
+
+# install
+```
+  pip install tablevalue
+```
 
 #### import
 
 ```python
-  from TableValue import TableValue
+from tablevalue import TableValue
 ```
 
 #### Methods
@@ -127,3 +132,6 @@ The following construction interferes
 if not self.transaction_is_active():
     self.conn.commit()
 ```
+
+GitHub
+https://github.com/nixonsis/TableValue
